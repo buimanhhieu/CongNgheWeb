@@ -5,19 +5,19 @@
 #layout{
     height: 500px;
     width: 1000px;
-    border: 2px rgb(2, 24, 1);
+    border: 2px solid rgb(2, 24, 1);
     margin-top: 20px;
 }
 header{
     height: 10%;
     width: 100%;
-    border-bottom: 2px rgb(213, 24, 24);
+    border-bottom: 2px solid rgb(15, 1, 1);
     background-color: rgb(36, 202, 202);
 }
 nav{
     height: 80%;
     width: 20%;
-    border-right: 2px rgb(165, 26, 26);
+    border-right: 2px solid rgb(23, 1, 1);
     background-color: rgb(53, 91, 172);
     float: left;
 }
@@ -30,15 +30,15 @@ section{
 article{
     height: 80%;
     width: 90%;
-    background-color: rgb(177, 83, 91);
+    background-color: rgb(115, 18, 26);
     margin: 0 auto;
-    border: 2px rgb(10, 0, 0);
+    border: 2px solid rgb(10, 0, 0);
     display: flex;
 }
 footer{
     height: 10%;
     width: 100%;
-    border-top: 2px rgb(213, 24, 24);
+    border-top: 2px solid rgb(24, 2, 2);
     background-color: rgb(151, 179, 95);
     float: left;
 }

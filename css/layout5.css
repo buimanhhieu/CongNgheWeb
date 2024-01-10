@@ -1,0 +1,37 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.warpper{
+    border: 1px solid black;
+    height: 600px;
+    width: 800px;
+}
+header{
+    height: 10%;
+    border-bottom: 1px solid;
+    background-color: aquamarine;
+}
+footer{
+    height: 10%;
+   
+    background-color: aquamarine;
+}
+nav{
+    height: 5%;
+    border-bottom: 1px solid;
+    background-color: aquamarine;
+}
+section{
+    height: 75%;
+    border-bottom: 1px solid;
+    background-color: aquamarine;
+  
+}
+article{
+    height: 75%;
+    width: 90%;
+    border: 1px solid;
+    background-color: rgb(192, 159, 177);
+ margin-top: 20px;
+}
