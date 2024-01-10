@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#layout{
+    height: 500px;
+    width: 1000px;
+    border: 2px rgb(2, 24, 1);
+    margin-top: 20px;
+}
+header{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px rgb(213, 24, 24);
+    background-color: rgb(36, 202, 202);
+}
+nav{
+    height: 80%;
+    width: 20%;
+    border-right: 2px rgb(165, 26, 26);
+    background-color: rgb(53, 91, 172);
+    float: left;
+}
+section{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(56, 181, 102);
+    float: left;
+}
+article{
+    height: 80%;
+    width: 90%;
+    background-color: rgb(177, 83, 91);
+    margin: 0 auto;
+    border: 2px rgb(10, 0, 0);
+    display: flex;
+}
+footer{
+    height: 10%;
+    width: 100%;
+    border-top: 2px rgb(213, 24, 24);
+    background-color: rgb(151, 179, 95);
+    float: left;
+}
