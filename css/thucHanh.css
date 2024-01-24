@@ -10,18 +10,31 @@ body {
 
 #layout {
     border: 1px solid black;
-    height: 600px;
-    width: 800px;
+    height: 6000px;
+    width: 100%;
     margin: 20px auto;
 }
 
 header {
-    height: 20%;
+    height: 150px;
     width: 100%;
     border-bottom: 1px solid black;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT0iaez03CsZVwc7f7Te5oqKbe5iA1KjkxXg&usqp=CAU);
+    position: relative;
 }
 
+h1{
+    position: absolute;
+    top: 30px;
+    left: 670px;
+    color: azure;
+}
+h2{
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    color: azure;
+    text-shadow: black -10px 5px 0px;
+}
 section {
     height: 65%;
     width: 100%;
@@ -30,74 +43,59 @@ section {
     float: left;
     position: relative;
 }
-
-footer {
-    height: 15%;
-    width: 100%;
-    border-top: 1px solid black;
-    background-color: rgb(38, 6, 68);
-    float: left;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-}
-
-.menu li {
-    float: left;
-    background-color: rgb(137, 131, 70);
-    width: 20%;
+.menu li{
+    position: absolute;
     height: 50px;
-    line-height: 50px;
-    position: relative;
+    width: 120px;
+    background-color: rgb(222, 51, 51);
+    list-style-type: none;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 15px 0px 15px 0px;
 }
-
 .menu li a {
     text-decoration: none;
     color: white;
-
+    transform: ;
 }
-
-.menu li:hover {
-    background-color: blueviolet;
-    font-style: italic;
+.menu li:nth-child(5){
+    top: 20px;
+    right: 50px;
+    text-indent: 20px;
 }
-
+.menu li:nth-child(4){
+    top: 20px;
+    right: 210px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.menu li:nth-child(3){
+    top: 20px;
+    right: 370px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.menu li:nth-child(2){
+    top: 20px;
+    right: 530px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.menu li:nth-child(1){
+    top: 20px;
+    right: 690px;
+    line-height: 50px;
+    transform: rotate(20deg);
+    text-indent: 20px;
+}
+.menu li:hover{
+    background-color: beige;
+}
 .menu li:hover>a {
-    color: rgb(238, 238, 85);
+    color: black;
     font-weight: bold;
 }
-
-.menu li .sub-menu {
-    list-style: none;
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: rgb(137, 131, 70);
-}
-
-.menu li:hover>.sub-menu {
-    display: block;
-}
-
-.menu li .sub-menu li {
-    width: 100%;
-}
-
-.menu li .sub-menu li .sub-menu{
-    list-style: none;
-    display: none;
-    position: absolute;
-    top: 0px;
-    left: 100%;
-    width: 100%;
-    background-color: rgb(137, 131, 70);
-}
-
-.menu li .sub-menu li:hover>.sub-menu{
-    display: block;
+ input{
+    width: 50px;
+    
 }
